@@ -161,4 +161,10 @@ This project was a hands-on simulation of how AI, data science, and ethical desi
 
 *	Applied advanced imputation, modeling, and evaluation techniques
 
+---
 
+**Note:**
+
+The project's credit belongs to [Forage](https://www.theforage.com/simulations/tata/data-analytics-t3zr)
+
+[Certificate of Completion](https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/ifobHAoMjQs9s6bKS/gMTdCXwDdLYoXZ3wG_ifobHAoMjQs9s6bKS_aXM3Xh4DNSNAw9pzW_1751115165702_completion_certificate.pdf)
