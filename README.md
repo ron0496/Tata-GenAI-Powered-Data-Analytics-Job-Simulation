@@ -1,21 +1,5 @@
 # Tata-GenAI-Powered-Data-Analytics-Job-Simulation
 
-## Your team
-
-**Your team:**
-- This team at Tata iQ specializes in leveraging data analytics and AI-powered insights to enhance decision-making in the financial sector.
-- The team collaborates with business leaders and strategy teams across Tata’s financial services companies to develop predictive models, risk assessments, and AI-driven intervention strategies for optimizing business outcomes.
-  
-**Your role:**
-- You are an AI transformation consultant at Tata iQ, specializing in data-driven decision-making for financial services.
-- You work within a larger data analytics team, collaborating with business leaders to develop AI-powered solutions.
-- Your team has been tasked with helping Geldium Finance, a financial services company, reduce its high credit card delinquency rate by performing advanced analytics and building AI/ML models with the assistance of GenAI.
-
-**Your goal:**
-- Your primary objective is to analyze customer data and predict delinquency risks using AI-driven techniques.
-- You will develop a recommendation framework to help the Head of Collections at Geldium determine the best intervention strategies for at-risk customers.
-- Throughout the project, you will ensure that AI-driven solutions are ethical, explainable, and effective in supporting responsible financial decision-making.
-
 ## Project Briefing 
 
 **_Geldium_** - a financial services provider specializing in digital lending and consumer credit. The company has observed an increase in credit card delinquency rates, with more customers missing payments beyond the 30-day late payment threshold. To improve risk management and customer engagement, they have engaged Tata iQ to develop an AI-powered predictive solution that helps identify at-risk customers and recommend appropriate interventions.
@@ -57,20 +41,124 @@ Used MICE imputation for complex numerical gaps to preserve inter-variable relat
 
 *	Insightful anomaly: Income and missed payments showed unexpected weak correlations with delinquency, hinting at non-linear or hidden interactions.
 
-[Full EDA Report]()
+[Full EDA Report](https://github.com/ron0496/Tata-GenAI-Powered-Data-Analytics-Job-Simulation/blob/main/Task%201-%20EDA%20Summary%20Report.pdf)
 
+---
 
+### ✅ Task 2: Predictive Model Framework
 
+Developed a no-code predictive model plan to identify high-risk customers using tabular data:
 
+Chosen Algorithm: 
 
+Gradient Boosting (XGBoost)
 
+*	Outperforms logistic regression and decision trees on non-linear, high-variance datasets.
 
+* Handles missing values, outliers, and imbalanced classes effectively.
 
+*	Offers feature importance metrics for interpretability.
 
+🛠 Model Pipeline:
 
+* Preprocessing: Missing value handling, outlier treatment, categorical encoding
 
+* Feature Engineering: Payment pattern aggregation, age/score binning, interaction terms
 
+*	Bias mitigation: SMOTE, fairness-constrained training, adversarial debiasing
 
+📊 Evaluation Metrics:
 
+*	F1-score, ROC AUC, precision-recall trade-offs
+
+*	Fairness Metrics: Demographic Parity, Equal Opportunity, Disparate Impact Rule (80%)
+
+[Model Plan](https://github.com/ron0496/Tata-GenAI-Powered-Data-Analytics-Job-Simulation/blob/main/Task%202-%20Model%20Plan.pdf) 
+
+---
+
+### ✅ Task 3: Business Recommendations & Responsible AI
+
+Designed a SMART business strategy based on model insights:
+
+Insight:
+
+Customers with high credit utilization (>50%) and missed payments (>2) are at elevated risk.
+
+🎯 SMART Recommendation:
+	
+*	Specific: Launch proactive outreach (SMS/email) for high-risk users.
+	
+ *	Measurable: Target 10% delinquency reduction in this segment in 6 months.
+	
+ *	Achievable: Leverage Geldium’s existing CRM and monitoring infrastructure.
+
+ *	Relevant: Addresses top predictors of delinquency.
+
+ *	Time-bound: Campaign rollout within 2 weeks, monthly monitoring.
+
+💡 Ethical Considerations:
+
+ *	Bias Risk: Avoid over-penalizing customers by location or employment status.
+	
+ *	Explainability: Use SHAP values to visualize how customer features drive risk scoring.
+	
+ *	Responsible AI: Human-in-the-loop governance for sensitive decisions (e.g., loan restructuring).
+   
+[Business Summary Report](https://github.com/ron0496/Tata-GenAI-Powered-Data-Analytics-Job-Simulation/blob/main/Task%203-%20Updated%20Business%20Summary.pdf)
+
+---
+
+### ✅ Task 4: AI Collections System Design & Business Impact
+
+Built a responsible, scalable AI system that automates collections while ensuring fairness and compliance.
+
+🔁 How It Works:
+*	Input: Real-time customer data (e.g., payments, credit usage, location)
+
+*	Risk Engine: XGBoost model assigns delinquency risk scores
+
+*	Autonomous Actions:
+
+    * Triggers reminders, offers plans, or flags for support
+      
+    *	Self-learns from previous outcomes to optimize strategies
+   
+*	Human Oversight:
+  
+    * Reviews edge cases and high-value accounts
+      
+    *	Ensures compliance with FCRA, GDPR, ECOA
+
+📊 Business KPIs:
+
+| KPI | Target Impact |
+|-----------------------|--------------------------|
+| Delinquency Rate Reduction | 10–15% in high-risk group |
+| Cost Efficiency | 25% lower call center load |
+| Model Accuracy | F1 ≥ 0.80 |
+| Action Speed | 50% faster interventions |
+
+🤝 Customer Impact:
+
+*	Personalized experience with timely nudges
+
+*	Fairness via demographic checks
+
+*	Higher engagement & transparency
+
+[AI Collections Strategy Presentation](https://github.com/ron0496/Tata-GenAI-Powered-Data-Analytics-Job-Simulation/blob/main/Task%204-%20Presentation.pdf)
+
+---
+
+💼 Key Learnings & Impact
+
+This project was a hands-on simulation of how AI, data science, and ethical design converge in real-world financial services:
+
+*	Bridged raw data → insights → actionable AI-driven decisions
+
+*	Balanced predictive power with fairness, transparency, and compliance
+
+*	Applied advanced imputation, modeling, and evaluation techniques
 
 
