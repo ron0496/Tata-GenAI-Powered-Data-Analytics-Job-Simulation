@@ -32,3 +32,45 @@ As an **AI transformation consultant**, your task is to:
 - **Develop a predictive model logic using GenAI** to forecast delinquency likelihood.
 - **Provide structured recommendations** on intervention strategies.
 - **Prepare a PowerPoint presentation** outlining how Geldium can implement an AI-powered collections system, including ethical guardrails and expected business impact.
+
+---
+
+### ✅ Task 1: Exploratory Data Analysis (EDA)
+
+Conducted an in-depth EDA on a 500-record financial dataset covering:
+
+**Features analyzed:** Credit score, income, loan balance, credit utilization, payment history, employment status, credit card type, location.
+
+**Missing Data:** Income (7.8%), Loan Balance (5.8%), Credit Score (0.4%)
+ 
+Used MICE imputation for complex numerical gaps to preserve inter-variable relationships.
+
+**Key Risk Indicators Identified:**
+  
+*	Business credit card holders – 21.29% delinquency rate
+  
+*	Unemployed individuals – 19.35%
+  
+*	Los Angeles residents – 19.62%
+
+*	Customers with >4 missed payments + >50% credit utilization had 20.63% delinquency rate.
+
+*	Insightful anomaly: Income and missed payments showed unexpected weak correlations with delinquency, hinting at non-linear or hidden interactions.
+
+[Full EDA Report]()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
